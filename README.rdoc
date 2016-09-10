@@ -1,0 +1,28 @@
+== README
+Birds Library :
+
+Things you may want to cover:
+
+* Ruby version : ruby 2.2.3p173
+
+* Rails  version : 4.2.6
+
+Application set up :
+  * Required the mongodb up and running  on system  Port:: 27017
+    no schema is required : Mongodb automatically up and runs
+    To start rails application :  bundle  install [It will load all the  gems that are required for application]
+                                   rails s   it will start the application
+                                   Use REST client  for chcking the [GET,POST,DELETE] Requests(I have used POsTman web client)
+    for spec :  spec (Automatically runs all the spec)
+                 to run contoller specific specs :    rspec spec/controllers/api/bird/birds_controller_spec.rb
+                 to run model specific specs :        rspec spec/models/bird_spec.rb
+
+
+
+GET /birds - List all birds
+POST /birds - Add a new bird
+GET /birds/{id} - Get details on a specific bird
+DELETE /birds/{id} - Delete a bird by id
+
+
+Note :- Followed the Instructons given :- https://gist.github.com/sebdah/265f4255cb302c80abd4
