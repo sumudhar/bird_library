@@ -25,4 +25,4 @@ GET /birds/{id} - Get details on a specific bird
 DELETE /birds/{id} - Delete a bird by id
 
 
-Note :- Followed the Instructons given :- https://gist.github.com/sebdah/265f4255cb302c80abd4
+
